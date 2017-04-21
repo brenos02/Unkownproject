@@ -10,46 +10,51 @@
 
 int main(int argc, const char * argv[]) {
     int age;
-    age= 155;
+    int i;
+    i= age;
+    age= 88;
+    std::cout<<"Please input your desired age:";
+    std::cin>>i;
     
-    if (age==8) {
+    if (i==8) {
         std::cout<<"Arthur\n";
     }
     
-    if (age==12){
+    if (i==12){
         std::cout<<"Caio\n";
     }
     
-    if (age==14){
+    if (i==14){
         std::cout<<"Breno\n";
     }
  
-    if (age==43){
+    if (i==43){
         std::cout<<"Juliana\n";
     }
     
-    if (age==45){
+    if (i==45){
         std::cout<<"Roberto\n";
     }
     
-    if (age==0<7){
+    if (i==0<7){
         std::cout<<"Nobody with this age\n";
     }
     
-    if (age==13){
+    if (i==13){
         std::cout<<"Nobody with this age\n";
     }
     
-    if (age==15<42){
+    if (i==15<42){
         std::cout<<"Nobody with this age\n";
     }
     
-    if (age==44){
+    if (i==44){
         std::cout<<"Nobody with this age\n";
     }
     
-    if (age>46){
+    if (i>46){
         std::cout<<"Nobody with this age\n";
     }
     return 1;
+    
 }
